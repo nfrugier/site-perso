@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {ParticlesModule} from 'angular-particle';
+//import { FontAwesomeModule } from '@fortawesome/fontawesome-free';
 
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
@@ -24,6 +26,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ParticlesModule,
+    //FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
